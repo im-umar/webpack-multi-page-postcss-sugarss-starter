@@ -1,6 +1,5 @@
 import 'jquery'
-// import 'common/common.css'
-import 'css/index.css'
+import 'css/main.css'
 
 $(document).ready(function () {
 

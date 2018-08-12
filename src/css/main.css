@@ -1,0 +1,15 @@
+@import './_root'
+@import './_basic.css'
+@import '../common/common.css'
+
+body.home-page
+  background-color: var(--color-grey)
+  color: var(--color-purple)
+
+body.details-page
+  background-color: var(--color-purple)
+  color: var(--color-yellow)
+  a
+    color: white
+  ul
+    list-style-type: none
