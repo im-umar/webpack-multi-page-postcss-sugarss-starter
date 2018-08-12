@@ -1,5 +1,5 @@
 # webpack-multi-page-postcss-sugarss-starter
-## A postcss starter template with webpack multi page support, postcss and sugarss syntax
+## A webpack 4 starter template with multi page support, postcss and sugarss syntax
 
 commands
 - yarn install
