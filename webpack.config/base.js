@@ -50,7 +50,9 @@ module.exports = {
               ident: 'postcss',
               parser: 'sugarss',
               plugins: () => [
+                require('autoprefixer'),
                 require('postcss-nested'),
+                require('postcss-simple-vars'),
                 require('postcss-import'),
                 require('postcss-preset-env')({
                   browsers: 'last 2 versions',

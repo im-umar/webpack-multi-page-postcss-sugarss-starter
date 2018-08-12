@@ -1,4 +1,6 @@
-﻿body
+﻿@import '../common/common.css'
+
+body
     background-color: #b4d455
     h1
         color: white
