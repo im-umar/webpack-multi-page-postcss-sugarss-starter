@@ -31,9 +31,9 @@ module.exports = webpackMerge(webpackBase,{
     },
     minimizer:  [
       new UglifyJsPlugin({
-        cache: true,
-        parallel: true,
-        sourceMap: true
+        cache: false,
+        parallel: false,
+        sourceMap: false
       }),
       new OptimizeCSSAssetsPlugin({})  // use OptimizeCSSAssetsPlugin
     ],

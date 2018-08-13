@@ -1,10 +1,9 @@
 @import './_root'
 @import './_basic.css'
-@import '../common/common.css'
 
 body.home-page
-  background-color: var(--color-grey)
-  color: var(--color-purple)
+  background-color: #b4d455
+  color: white
 
 body.details-page
   background-color: var(--color-purple)
@@ -13,3 +12,7 @@ body.details-page
     color: white
   ul
     list-style-type: none
+  
+body.about-page
+  background-color: pink
+  color: white
