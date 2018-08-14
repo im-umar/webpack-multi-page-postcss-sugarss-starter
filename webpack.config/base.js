@@ -113,10 +113,10 @@ module.exports = {
   },
   resolve: {
     alias: {
-      assets: path.join(root, 'src/assets'),
+      img: path.join(root, 'src/img'),
       css: path.join(root, 'src/css'),
       js: path.join(root, 'src/js'),
-      common: path.join(root, 'src/common'),
+      // common: path.join(root, 'src/common'),
       components: path.join(root, 'src/components')
     },
     extensions: ['.js'] // 引用js文件可以省略后缀名

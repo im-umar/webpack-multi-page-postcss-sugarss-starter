@@ -1,6 +1,11 @@
 @import './_root'
 @import './_basic.css'
 
+body
+  img
+    display: block
+    margin: 0 auto
+
 body.home-page
   background-color: #b4d455
   color: white
