@@ -1,5 +1,5 @@
-@import './_root'
-@import './_basic.css'
+@import '_vars'
+@import '_basic'
 
 body
   img
@@ -7,17 +7,13 @@ body
     margin: 0 auto
 
 body.home-page
-  background-color: #b4d455
+  background-color: $home-page-bg-color
   color: white
 
 body.details-page
-  background-color: var(--color-purple)
-  color: var(--color-yellow)
+  background-color: $details-page-bg-color
+  color: $details-page-text-color
   a
     color: white
   ul
     list-style-type: none
-  
-body.about-page
-  background-color: pink
-  color: white
