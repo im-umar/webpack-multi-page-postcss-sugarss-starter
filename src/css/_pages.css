@@ -1,0 +1,16 @@
+body
+  img
+    display: block
+    margin: 0 auto
+
+body.home-page
+  background-color: $home-page-bg-color
+  color: white
+
+body.details-page
+  background-color: $details-page-bg-color
+  color: $details-page-text-color
+  a
+    color: white
+  ul
+    list-style-type: none
